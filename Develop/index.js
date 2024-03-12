@@ -30,6 +30,11 @@ const questions = [
         message: 'How can someone contribute to your project',
         name: 'contributing'
     },
+    {
+        type: 'input',
+        message: 'Where can people contact you with any questions about this project',
+        name: 'questions'
+    }
 ];
 
 // TODO: Create a function to write README file

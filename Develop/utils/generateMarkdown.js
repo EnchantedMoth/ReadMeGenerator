@@ -39,8 +39,7 @@ function renderLicenseSection(license) {
   if (license == 'None') {
     return ''
   } else { 
-    return `## License 
-    This project is licensed under the ${license} License. See the [LICENSE](${renderLicenseLink(license)}) file for details.`}
+    return '## License \nThis project is licensed under the ' + license + ' License. See the ' + renderLicenseLink(license) + ' page for details.'}
 }
 
 // TODO: Create a function to generate markdown for README
@@ -72,19 +71,14 @@ function generateMarkdown(data) {
 
   ${renderLicenseSection(data.license)}
 
-  WHAT DO I PUT HERE?
 
   ## Contributing
 
-  ${data.credits}
-
-  ## Tests
-
-  WHAT ARE TESTS IN THIS CASE?
+  ${data.contributing}
 
   ## Questions
 
-  ${data.questions}
+  [Contact Me](${data.questions})
 `;
 }
 
