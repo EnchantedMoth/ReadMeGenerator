@@ -20,6 +20,11 @@ const questions = [
         message: 'Please provide Installation instructions for your project:',
     },
     {
+        type: 'input',
+        name: 'usage',
+        message: 'What are some usage examples for your project?',
+    },
+    {
         type: 'list',
         message: 'Which license are you using for your project?',
         name: 'license',
@@ -27,12 +32,12 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'How can someone contribute to your project',
+        message: 'How can someone contribute to your project?',
         name: 'contributing'
     },
     {
         type: 'input',
-        message: 'Where can people contact you with any questions about this project',
+        message: 'Where can people contact you with any questions about this project? (this should be a link)',
         name: 'questions'
     }
 ];
