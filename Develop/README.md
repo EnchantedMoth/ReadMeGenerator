@@ -1,10 +1,10 @@
-# asdf
+# Project
 
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
   
-  asdf
+  Its a project
 
   ## Table of Contents
 
@@ -17,19 +17,19 @@
 
   ## Installation
 
-  asdf
+  do the installation
 
   ## Usage
 
   undefined
 
   ## License 
-This project is licensed under the Apache-2.0License. See the [Apache License 2.0](https://opensource.org/licenses/Apache-2.0) page for details.
+This project is licensed under the MIT License. See the [MIT License](https://opensource.org/licenses/MIT) page for details.
 
 
   ## Contributing
 
-  asdf
+  They cant its purfect
 
   ## Questions
 
